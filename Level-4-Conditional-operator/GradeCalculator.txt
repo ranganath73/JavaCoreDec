@@ -1,0 +1,52 @@
+100 - 90  -> A
+90 - 70   -> B
+80 - 50   -> C
+< 50      -> H {Means not cleared the exam}
+
+
+if (CONDITION)
+    STATEMENT1;
+else
+    STATEMENT2;
+
+if (CONDITION)
+    STATEMENT1; {this only will enclose in if}
+    STATEMENT2; {this won't be enclosed in if} {It won't issue an error} {This will leads to logical error}
+
+if (CONDITION)
+{
+    STATEMENT1;
+    STATEMENT2;
+} else 
+    STATEMENT3;   {Correct}
+
+
+if (CONDITION)
+{
+    STATEMENT1;
+    STATEMENT2;
+} else {
+    STATEMENT3;
+    STATEMENT4;  {Correct} {#BEST Style}
+}
+
+18 < age < 65  => 19 to 64 => 19 - 64
+
+18 < age   age < 65
+    
+
+
+
+if (CONDITION)
+    STATEMENT1;
+    STATEMENT2; {this won't be enclosed in if} {It won't issue an error} {This will leads to syntactical error}
+else            {else not reachable or else without if}
+    STATEMENT3;
+
+
+if(a < b)
+{
+    min = a;
+} else {
+    min = b;
+}
