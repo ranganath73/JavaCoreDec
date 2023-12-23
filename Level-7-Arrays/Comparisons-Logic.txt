@@ -1,0 +1,24 @@
+
+int a = 10;
+int b = 20;
+
+int min = (a < b) ? a : b;
+
+
+Corner Case: a == b
+-----------
+
+int min = (a < b) ? a : (a == b) ? a : b;
+
+int min = (a < b) ? a : (a == 0) ?
+
+String s = (a == b) ? (b == c) ? "a " + "b " + "c" : "Two";
+
+
+if(a == b)
+    if(b == c)
+       sysout;
+else if (b == c)
+       syout;
+else
+       sout;
